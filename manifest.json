@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "好医生",
+  "description": "好医生",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://doctor.jk.cn/*"],
+      "js": ["js/jquery-3.1.0.min.js","js/content.js"]
+    }
+  ]
+}

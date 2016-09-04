@@ -1,0 +1,25 @@
+.create-medical-record {
+        background-image: url("http://openpublic.oss-cn-shanghai.aliyuncs.com/icon.png");
+        width:40px;
+        height:40px;
+        position: fixed;
+        top: 15px;
+        right: 5px;
+        background-position: center center;
+        background-size: cover;
+        z-index: 10001;
+        cursor: pointer;
+}
+
+.create-medical-record-gray {
+        background-image: url("http://openpublic.oss-cn-shanghai.aliyuncs.com/icongray.png");
+        width:40px;
+        height:40px;
+        position: fixed;
+        top: 15px;
+        right: 5px;
+        background-position: center center;
+        background-size: cover;
+        z-index: 10001;
+        cursor: pointer;
+}
